@@ -1,0 +1,570 @@
+@import "./reset.css;";
+@import url('https://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif; */
+
+/* font-family: 'Post No Bills Jaffna SemiBold', sans-serif; */
+
+.container {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body {
+    background-color: black;
+}
+
+.header {
+    color: #969696;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    background-color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: #969696;
+    padding: 14px 400px;
+}
+
+.header__contact {
+
+    /* padding: 0 400px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__phone__icon {
+    margin-right: 15px;
+    width: 16px;
+}
+
+.header__phoneIcon {
+    width: 16px;
+}
+
+.header__phone {
+    margin-right: 15px;
+}
+
+.header__info {
+    padding: 0 15px;
+    border-left: 1px solid #969696;
+    border-right: 1px solid #969696;
+}
+
+.header__time {
+    margin-left: 15px;
+}
+
+.header__login {
+    /* padding: 0 400px; */
+    display: flex;
+}
+
+.header__log {
+    margin: 0 10px;
+}
+
+.header__nav {
+    padding: 0 400px;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 400px;
+}
+
+.header__nav__logo {
+    font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 15px 25px;
+    color: #ffffff;
+}
+
+.header__nav__sections {
+    display: flex;
+}
+
+.nav__list {
+    text-transform: uppercase;
+    display: flex;
+    margin: 31px 20px;
+    /* background-color: #1F1F1F; */
+}
+
+.link {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #969696;
+    padding: 20px;
+}
+
+.link:hover {
+    background-color: gray;
+    color: #ffffff;
+}
+
+.header__nav__icons {
+    width: 100px;
+    margin: 29px 40px;
+}
+
+.nav__icons {
+    margin: 10px;
+}
+
+.header__title {
+    max-width: 100%;
+}
+
+.header__title {
+    position: relative;
+    min-height: 100vh;
+    background: url(./../img/header__img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header__square {
+    position: absolute;
+
+    border: 5px solid #ffffff;
+    width: 400px;
+    height: 400px;
+
+    text-align: center;
+    line-height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header__title__logo {
+    font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 15px 25px;
+    color: #ffffff;
+}
+
+.header__title__logo span {
+    position: relative;
+    display: inline-block;
+    margin-top: 93px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.header__title__logo span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.header__title__name {
+    position: absolute;
+    display: inline-block;
+
+    margin-left: -89PX;
+    margin-top: -90px;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header__title__text {
+    position: absolute;
+    display: inline-block;
+    left: 33%;
+    bottom: 15%;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 730px;
+    color: #ffffff;
+
+    transform: translate(30%, 50%);
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.section2021 {
+    display: inline-block;
+    background-color: black;
+    width: 50%;
+    height: 895px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section2021__title {
+    position: relative;
+    display: inline-block;
+    padding-top: 93px;
+    padding-bottom: 100px;
+    font-size: 36px;
+}
+
+.section2021__title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 25%;
+    bottom: 25%;
+    width: 50%;
+    height: 2px;
+    background-color: #ffffff;
+
+}
+
+.section2021__container {
+    text-align: start;
+}
+
+.section2021__item {
+    height: 325px;
+    width: 260px;
+    background-color: #191B1C;
+}
+
+.item__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 80px;
+}
+
+
+.watch__img {
+    display: inline-block;
+    margin-top: 55px;
+    margin-left: 32px;
+    width: 215px;
+    height: 214px;
+}
+
+.section2021__name {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.section2021__price {
+    font-size: 16px;
+}
+
+/* New collection */
+.new__collection {
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.new__collection__img {
+    width: 100%;
+    height: auto;
+}
+
+.new__collection__item {
+    position: absolute;
+    top: 484px;
+    bottom: 207px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    align-items: center;
+
+}
+
+.new__collection__title {
+    margin-bottom: 60px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.new__collection__title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 25%;
+    margin-top: 30px;
+    width: 50%;
+    height: 2px;
+    background-color: #ffffff;
+
+}
+
+.new__collection__btn {
+    border: 1px solid white;
+    padding: 12px 28px;
+    display: inline-block;
+
+    margin-left: 14%;
+
+    transform: translate(50%, 50%);
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* ------------------------- */
+
+.new__collection__2018 {
+    width: 100%;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.new__collection__2018__img {
+    width: 50%;
+}
+
+.new__collection__2018__img img {
+    width: 880px;
+    height: 600px;
+}
+
+.new__collection__2018__item {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    width: 50%;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.new__collection__2018__item__title {
+    position: relative;
+    margin-bottom: 80px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: white;
+}
+
+.new__collection__2018__item__title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 25%;
+    margin-top: 40px;
+    width: 50%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+
+    width: 471px;
+    margin-bottom: 61px;
+}
+
+.collection__btn {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+
+    border: 1px solid white;
+    padding: 12px 28px;
+}
+
+/* --------------------------- */
+
+.new__arrivals {
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.new__arrivals__text {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+
+    margin-bottom: 121px;
+}
+
+.new__arrivals__text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-top: 40px;
+    width: 120px;
+    height: 2px;
+    background-color: #ffffff;
+
+    transform: translate(-50%, 50%);
+}
+
+.new__arrivals__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    margin: 0 450px;
+    padding-bottom: 150px;
+
+}
+
+.section2021__container--item {
+    margin: 40px 23px 40px 0;
+}
+
+/* ------------------------------- */
+
+.our__brands {
+    padding-top: 60px;
+    background-color: #0f0f0f;
+    padding-left: 405px;
+    padding-right: 405px;
+}
+
+.our__brands__title {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.our__brands__title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-top: 40px;
+    width: 120px;
+    height: 2px;
+    background-color: #ffffff;
+
+    transform: translate(-50%, 50%);
+}
+
+.our__brands__icon__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+/* --------------------------- */
+.footer {
+    background-image: url(./../img/footer__img.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-md-4 {
+    flex: 1 0 25%;
+    /* padding: 0 25px; */
+    width: 350px;
+
+    /* display: block; */
+}
+
+.footer__item {
+    margin-bottom: 30px;
+}
+
+.footer__item-title {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.footer__item-text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.footer__item-categories {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 30px;
+
+}
+
+.categories__item {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+}
+
+.subscribe__content {
+    margin-top: 37px;
+    color: white;
+}
+
+.subscribe-form__input {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+}
+
+/* ------------------------- */
+
+.info__section {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 405px;
+    background-color: #000000;
+    color: #969696;
+}
